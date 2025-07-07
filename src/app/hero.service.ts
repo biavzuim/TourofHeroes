@@ -6,9 +6,7 @@ import { Hero } from './hero';
 import { HEROES } from './mock-heroes';
 import { MessageService } from './message.service';
 
-@Injectable({
-  providedIn: 'root',
-})
+@Injectable({ providedIn: 'root'})
 export class HeroService {
 
   constructor(private messageService: MessageService) { }
@@ -18,4 +16,9 @@ export class HeroService {
     this.messageService.add('HeroService: fetched heroes');
     return heroes;
   }
+
+getHero(id: number): Observable<Hero> {
+  return of(HEROES.find(hero => hero.id === id)!);
 }
+}
+/*Serviço para fornecer a lista de heróis e mostra uma mensagem quando os dados são buscados*/

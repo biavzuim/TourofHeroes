@@ -7,13 +7,13 @@ h2 {
 
 .clear {
   color: #333;
-  background-color: #eee;
+  background-color: #ec9696;
   margin-bottom: 12px;
   padding: 1rem;
   border-radius: 4px;
   font-size: 1rem;
 }
 .clear:hover {
-  color: white;
-  background-color: #42545C;
+  color: rgb(99, 15, 15);
+  background-color: #db0606;
 }

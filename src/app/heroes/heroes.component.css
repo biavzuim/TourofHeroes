@@ -5,61 +5,50 @@
   padding: 0;
   width: 15em;
 }
-
 .heroes li {
-  display: flex;
-}
-/* Seleciona todos os botões que estão dentro de um elemento com a classe heroes*/
-.heroes button { 
-  flex: 1;
-  cursor: pointer; /*faz um mouse virar uma mãozinha, ou seja, botão clicável */ 
   position: relative;
-  left: 0;
-  background-color: #eeb3cf; /*Da uma cor cinza claro ao botão*/
-  margin: .5em;
-  padding: 0;
-  border-radius: 4px;
-  display: flex;
-  align-items: stretch;
-  height: 1.8em; /*1.8 vezes o tamanho da letra*/
+  cursor: pointer;
 }
 
-.heroes button:hover {
-  color: #70003e;
-  background-color: #9c3167;
+.heroes li:hover {
   left: .1em;
 }
 
-.heroes button:active {
-  background-color: #810141;
+.heroes a {
+  color: #333;
+  text-decoration: none;
+  background-color: #f08ad1;
+  margin: .5em;
+  padding: .3em 0;
+  height: 1.6em;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+}
+
+.heroes a:hover {
+  color: #000000;
+  background-color: #77bb99;
+}
+
+.heroes a:active {
+  background-color: #77bb99;
   color: #fafafa;
-}
-
-.heroes button.selected {
-  background-color: rgb(110, 0, 52);
-  color: white;
-}
-
-.heroes button.selected:hover {
-  background-color: #5aaf80;
-  color: white;
-}
-
-.heroes button.selected:active {
-  background-color: black;
-  color: white;
 }
 
 .heroes .badge {
   display: inline-block;
   font-size: small;
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 0.8em 0.7em 0 0.7em;
-  background-color: #74005a;
+  background-color: #740746;
   line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  min-width: 16px;
+  text-align: right;
   margin-right: .8em;
   border-radius: 4px 0 0 4px;
 }
-
-.heroes .name {
-  align-self: center;}
