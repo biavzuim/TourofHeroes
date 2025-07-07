@@ -1,27 +1,58 @@
-# AngularTourOfHeroes
+# Angular Tour of Heroes 🦸‍♀️🦸‍♂️
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.17.
+This project is based on the official Angular tutorial: **Tour of Heroes**.  
+The goal is to learn the core concepts of Angular through a hands-on and beginner-friendly application.
 
-## Development server
+## 🔰 About the Project
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Tour of Heroes is a simple app that manages a list of fictional heroes.  
+While building this app, you'll learn about:
 
-## Code scaffolding
+- Creating components
+- Component communication
+- Services and dependency injection
+- Navigation with Angular Router
+- Simulated HTTP requests
+- Best practices in Angular development
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 📁 Project Structure
 
-## Build
+```bash
+src/
+├── app/
+│   ├── heroes/             # Main heroes component
+│   ├── hero-detail/        # Hero detail component
+│   ├── message.service.ts  # Messaging service
+│   ├── hero.service.ts     # Hero data service
+│   └── app-routing.module.ts # Application routing
+├── assets/
+├── index.html
+└── main.ts
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+How to Run the Project
+-> npm install -g @angular/cli
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Clone the repository
+git clone https://github.com/your-username/your-repo-name.git
 
-## Running end-to-end tests
+# Navigate to the project folder
+cd angular-tour-of-heroes
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+# Install dependencies
+npm install
 
-## Further help
+# Start the development server
+ng serve
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+Reference
+https://angular.io/tutorial
+
+🚧 Project Status
+In Progress — following the step-by-step tutorial.
+
+
+Made with ❤️ by Bia 
+
+
