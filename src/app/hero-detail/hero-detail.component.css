@@ -9,7 +9,8 @@ input {
 }
 button {
   margin-top: 20px;
-  background-color: #bb79e7;
+  margin-right: .5rem;
+  background-color: #eee;
   padding: 1rem;
   border-radius: 4px;
   font-size: 1rem;

@@ -5,6 +5,15 @@
   padding: 0;
   width: 15em;
 }
+
+input {
+  display: block;
+  width: 100%;
+  padding: .5rem;
+  margin: 1rem 0;
+  box-sizing: border-box;
+}
+
 .heroes li {
   position: relative;
   cursor: pointer;
@@ -15,9 +24,9 @@
 }
 
 .heroes a {
-  color: #333;
+  color: #ffffff;
   text-decoration: none;
-  background-color: #f08ad1;
+  background-color: #aa3b72;
   margin: .5em;
   padding: .3em 0;
   height: 1.6em;
@@ -27,21 +36,21 @@
 }
 
 .heroes a:hover {
-  color: #000000;
-  background-color: #77bb99;
+  color: #2c3a41;
+  background-color: #e6e6e6;
 }
 
 .heroes a:active {
-  background-color: #77bb99;
-  color: #fafafa;
+  background-color: #6b025d;
+  color: #ffffff;
 }
 
 .heroes .badge {
   display: inline-block;
   font-size: small;
-  color: rgb(255, 255, 255);
+  color: white;
   padding: 0.8em 0.7em 0 0.7em;
-  background-color: #740746;
+  background-color: #d40bc4;
   line-height: 1em;
   position: relative;
   left: -1px;
@@ -51,4 +60,31 @@
   text-align: right;
   margin-right: .8em;
   border-radius: 4px 0 0 4px;
+}
+
+.add-button {
+ padding: .5rem 1.5rem;
+ font-size: 1rem;
+ margin-bottom: 2rem;
+}
+
+.add-button:hover {
+  color: rgb(141, 13, 105);
+  background-color: #fb8dff;
+}
+
+button.delete {
+  position: absolute;
+  left: 210px;
+  top: 5px;
+  background-color: rgb(226, 145, 206);
+  color:  #ffffff;
+  font-size: 1.1rem;
+  margin: 0;
+  padding: 1px 10px 3px 10px;
+}
+
+button.delete:hover {
+  background-color: #525252;
+  color: white;
 }
